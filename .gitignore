@@ -74,5 +74,4 @@ typings/
 .serverless
 
 # Misc
-*.bat
 config.json
