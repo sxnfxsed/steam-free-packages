@@ -1,5 +1,7 @@
 steam-free-packages is a NodeJS application used to request any new free packages added to steam to be added to your account. It considers the rate limit of 50 requests per hour.
 
+Credit: Royalgamer06, Bluscream
+
 To use steam-free-packages:
 
 1. Download and Install [NodeJS](https://nodejs.org/en/)
