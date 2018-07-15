@@ -1,0 +1,24 @@
+{
+  "name": "steam-free-packages",
+  "version": "1.0.0",
+  "description": "Periodically request free packages on steam to be added to your account ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sxnfxsed/steam-free-packages.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sxnfxsed/steam-free-packages/issues"
+  },
+  "homepage": "https://github.com/sxnfxsed/steam-free-packages#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "steam-user": "^3.28.0",
+    "steamauth": "^0.1.5"
+  }
+}
