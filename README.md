@@ -7,6 +7,6 @@ To use steam-free-packages:
 1. Download and Install [NodeJS](https://nodejs.org/en/)
 2. Clone this repository
 3. Extract it anywhere and run npm install
-4. Edit config.json and include your information and preferences
+4. Rename config.json.example to config.json and edit it to include your Steam login and optional preferences
 5. Run node index.js
 6. Minimize if you wish and it will periodically request free packages for your steam account
