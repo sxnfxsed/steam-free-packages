@@ -84,7 +84,7 @@ function steamLogin() {
     });
     client.on("packageUpdate", function(packageid, data) {
         console.log("Received PICS Update for Package " + packageid);
-        console.log(JSON.stringify(data, null, 4));
+        JSON.stringify(data, null, 4);
         if (!ownedPackages.includes(packageid) &&
             data.packageinfo.licensetype === 1 && // Single Purchase
             data.packageinfo.status === 0 && // Available
