@@ -1,6 +1,6 @@
 steam-free-packages is a NodeJS application used to request any new free packages added to steam to be added to your account. It considers the rate limit of 50 requests per hour.
 
-Credit: Royalgamer06, Bluscream
+Code Credit: Royalgamer06, Bluscream
 
 To use steam-free-packages:
 
@@ -10,3 +10,5 @@ To use steam-free-packages:
 4. Rename config.json.example to config.json and edit it to include your Steam login and optional preferences
 5. Run node index.js
 6. Minimize if you wish and it will periodically request free packages for your steam account
+
+Tested on Windows 10 and Ubuntu 16.04
